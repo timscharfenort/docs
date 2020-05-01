@@ -1,0 +1,68 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - babel-plugin-transform-define > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - cheerio > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - react-instantsearch-dom > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - next > babel-plugin-transform-define > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - next > @babel/core > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - next > autodll-webpack-plugin > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - react-instantsearch-dom > algoliasearch-helper > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - react-instantsearch-dom > react-instantsearch-core > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx > @babel/core > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx-metadata > @babel/traverse > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - next > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx-metadata > @babel/core > @babel/traverse > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - next > autodll-webpack-plugin > webpack-merge > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - next > styled-jsx > babel-types > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - react-instantsearch-dom > react-instantsearch-core > algoliasearch-helper > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - next > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx-metadata > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - next > @babel/preset-env > @babel/plugin-transform-unicode-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx-metadata > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx-metadata > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx-metadata > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - remark-mdx > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-01T02:22:56.539Z'
